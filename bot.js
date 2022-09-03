@@ -4,7 +4,7 @@ const bot = new Discord.Client({ intents: ["Guilds",
 // const client = new Client({ intents: ["Guilds", "GuildVoiceStates"] });
 const { MessageEmbed } = require("discord.js");
 
-const config = require("./config.json")
+const config = require("./idea/config.json")
 
 bot.on("ready", () => {
     console.log("Loaded up!")
