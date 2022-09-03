@@ -1,15 +1,24 @@
 {
   "name": "goodman",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "bot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Hengrui Liang",
   "license": "ISC",
   "dependencies": {
+    "discord-player": "^5.3.1",
+    "discord.js": "^14.3.0",
     "node": "^16.17.0"
   },
-  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChinaEidolon/SaulGoodman.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ChinaEidolon/SaulGoodman/issues"
+  },
+  "homepage": "https://github.com/ChinaEidolon/SaulGoodman#readme",
   "description": ""
 }
