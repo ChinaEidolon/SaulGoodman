@@ -7,7 +7,7 @@ const { MessageEmbed } = require("discord.js");
 const config = require("./idea/config.json")
 
 bot.on("ready", () => {
-    console.log("Loaded up!")
+    console.log("All loaded up!")
 });
 // bot.on('messageCreate', async (message) => {
 // //     // if (!interaction.isChatInputCommand()) return;
